@@ -31,12 +31,13 @@ The initial, regular Tacotron model was trained first on LJSpeech, and then on a
 Grab the latest version of espeak-ng for Windows.
 https://github.com/espeak-ng/espeak-ng/releases
 
-##Install Requirements with pip
+### Install Requirements with pip
 Navigate to the folder of the project and run:
 
 ```pip install -r requirements.txt```
 
-###Set Path for Phonemizer
+### Set Path for Phonemizer
+
 Phonemizer needs to know the path to your espeak installation. 
 
 Open an elevated command prompt and enter the following if you installed espeak.-ng in the default location:
