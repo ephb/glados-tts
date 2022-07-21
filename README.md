@@ -3,12 +3,12 @@ Neural network based TTS Engine.
 
 If you want to just play around with the TTS, this works as stand-alone.
 ```console
-python3 glados-tts/glados.py
+nix-shell --run 'python glados.py'
 ```
 
 the TTS Engine can also be used remotely on a machine more powerful then the Pi to process in house TTS: (executed from glados-tts directory
 ```console
-python3 engine-remote.py
+nix-shell --run 'python3 engine-remote.py'
 ```
 
 Default port is 8124
